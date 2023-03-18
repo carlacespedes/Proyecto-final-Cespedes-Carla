@@ -1,5 +1,6 @@
 @media(max-width:1024px){   
-.main-index-media {
+/*M-queries de Page Index*/
+/*.main-index-media {
     width: 100%;
     height: 120vh;
     display: flex;
@@ -31,15 +32,16 @@
     position:relative;
     right: 186px;
     bottom: 92px;
+}*/
 }
-}
+/*M-queries de Page Indumentaria*/
 .main-indumentaria {
     height: auto;
     column-gap: 5px;
     row-gap: 5px;
     padding: 8%;
 }
-
+/*M-queries de Page decoracion*/
     .main-decoracion {
         background-color: #edeae5;
         display: grid;
@@ -47,11 +49,13 @@
         height: 200vh;
         row-gap: 6%;
     }
+/*M-queries de Page Favoritos*/    
     .main-favoritos { 
         .text-banner-fav {
             font-size: 25px;
         }}
-    .main-regis-media{
+ /*M-queries de Page Registracion*/       
+.main-regis-media{
         display: flex;
         width: 100%;
         height: 110vh;
@@ -66,6 +70,5 @@
 }
 .class-formu {
     padding: 40px 250px 40px 250px;
-}
 }
 }

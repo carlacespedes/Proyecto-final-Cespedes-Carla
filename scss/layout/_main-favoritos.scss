@@ -38,9 +38,7 @@
 .foto-favuno {
     grid-area: foto-favuno;
     display: grid;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
+    @include uno(row,center,center)
 }
 .foto-favdos {
   @extend .foto-favuno;

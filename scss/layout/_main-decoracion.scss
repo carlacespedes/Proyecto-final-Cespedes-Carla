@@ -31,9 +31,7 @@
     .uno {
     grid-area: uno;
     display: grid;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center
+    @include uno(row,center,center)
     }
     .dos {
     @extend .uno;

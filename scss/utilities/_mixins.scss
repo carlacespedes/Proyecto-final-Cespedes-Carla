@@ -1,0 +1,5 @@
+@mixin uno($direccion, $justify, $align){
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-content: $align;
+}

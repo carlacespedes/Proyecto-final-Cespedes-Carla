@@ -10,6 +10,7 @@
         margin: 5px 0px 10px 60px; 
 } 
 } 
+/*M-queries de Page Index*/
 .main-index-media {
         width: 100%;
         height: auto;
@@ -44,6 +45,7 @@
         bottom: 60px;
 }
 }
+/*M-queries de Page Indumentaria*/
 .main-indumentaria {
         background-color: #edeae5;
         display: grid;
@@ -75,30 +77,34 @@
         .f-seis img {
                 width: 70%;
                 }
-    }
-    .main-decoracion {
-    .text-banner {
+}
+/*M-queries de Page Decoracion*/
+.main-decoracion {
+.text-banner {
         font-size: 12px;
         padding: 2% 11% 8% 11%;
-    }}
-    .main-regis-media{
+}
+}
+/*M-queries de Page Registracion*/
+.main-regis-media{
         width: auto;
         height: auto;
         font-size: 10px;
-    .registrarme-banner {
+.registrarme-banner {
         font-size: 12px;
         margin: 40px 50px 35px 50px 
-    }
-    .registrarme {
+}
+.registrarme {
         text-align: center;
         font-size: 9px;
         padding: 20px;
-    }
-    .class-formu {
+}
+.class-formu {
         padding:40px 40px 50px 40px;
-    }
-    }
-    .main-favoritos { 
+}
+}
+/*M-queries de Page Favoritos*/
+.main-favoritos { 
         background-color: #edeae5;
         display: grid;
         width: 100%;
@@ -117,7 +123,7 @@
         "foto-favuno"
         "foto-favdos" ;
         .text-banner-fav {
-            font-size: 12px;
+        font-size: 12px;
         }
         .corazon{
                 width: 20px;
@@ -129,23 +135,23 @@
                 flex-direction: row;
                 width: 140px;
                 height: 210px;
-    }
+}
         .foto-favdos{
                 grid-area: foto-favdos;
                 display: grid;
                 flex-direction: row;
                 width: 140px;
                 height: 210px;
-    }
-        .foto-favtres{ 
-                grid-area: foto-favtres;
-                display: none;
+}
+}
+        .foto-favtres{  
+                grid-area: foto-favtres; 
+                display: grid;
                 flex-direction: row;
                 width: 140px;
-                height: 210px;
-        
-    }}
-    footer{
+                height: 210px; 
+}
+footer{
         display: flex;
         width: 100%;
         height: auto;

@@ -9,18 +9,7 @@
                     gap: 4px;
                     margin: 40px 18px 40px 0px;   
             } }
-            main div span{
-                padding: 3%;
-                font-size: 11px;
-                text-align: center;
-            }  
-            main div span a {
-                text-decoration: none;
-                list-style: none;
-                color:black;
-                font-family:'Poppins', sans-serif;
-                font-size: 10px;
-                }      
+/*M-queries de Page Index*/
 .main-index-media {
     width: 100%;
     height: auto;
@@ -30,7 +19,18 @@
     align-items: center;
     gap: 1%;
     padding: 15% 0% 10%;
-
+    main div span{
+        padding: 3%;
+        font-size: 11px;
+        text-align: center;
+    }  
+    main div span a {
+        text-decoration: none;
+        list-style: none;
+        color:black;
+        font-family:'Poppins', sans-serif;
+        font-size: 10px;
+        }      
 .img-1 {
     position:relative;
     right: -43px;
@@ -57,6 +57,7 @@
     bottom: 110px;
 }
 }
+/*M-queries de Page indumentaria*/
 .main-indumentaria {
     background-color: #edeae5;
     display: grid;
@@ -89,6 +90,7 @@
             width: 80%;
             }
 }
+/*M-queries de Page decoracion*/
 .main-decoracion {
     background-color: #edeae5;
     display: grid;
@@ -153,6 +155,7 @@
     }
 
 }
+/*M-queries de Page registracion*/
 .main-regis-media{
     width: auto;
     height: auto;
@@ -170,6 +173,7 @@
     padding: 40px 90px 60px 90px;
 }
 }
+/*M-queries de Page favoritos*/
 .main-favoritos { 
     width: 100%;
     height: auto;

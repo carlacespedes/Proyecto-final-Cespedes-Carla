@@ -1,8 +1,8 @@
 .main-favoritos { 
-    background-color: #edeae5;
     display: grid;
     width: 100%;
     height: auto;
+    background-color: $background-main;
     border-radius: 15%;
     justify-content:center;
     align-items: center;
@@ -43,18 +43,12 @@
     justify-content: center;
 }
 .foto-favdos {
+  @extend .foto-favuno;
     grid-area: foto-favdos;
-    display: grid;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 .foto-favtres { 
+   @extend .foto-favuno;
     grid-area: foto-favtres;
-    display: grid;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 @keyframes jello {
     from, 11.1%, to {

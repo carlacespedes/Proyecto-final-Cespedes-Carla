@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     height: 150vh;
-    background-color:  #edeae5;
+    background-color: $background-main;
     border-radius: 15%;
     flex-direction: row;
     justify-content:space-evenly;
@@ -38,11 +38,7 @@
     border-radius:  10%;
 }
 .item-4 {
-    text-decoration: none;
-    color:black;
-    font-family:'Poppins', sans-serif;
-    font-size: 28px; 
-    position:relative;
+@extend .item-2;
     right: 235px;
     bottom: 105px;
     background-color:#ffffff1f;

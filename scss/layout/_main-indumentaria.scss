@@ -1,8 +1,9 @@
 .main-indumentaria {
-    background-color: #edeae5;
+   
     display: grid;
     width: 100%;
     height: auto;
+    background-color: $background-main;
     font-family:'Poppins', sans-serif;
     font-size: 18px;
     column-gap: 5px;
@@ -35,8 +36,8 @@ main div span{
     font-size: 16px;
     text-align: center;
 }
-
 .f-uno {
+
     grid-area: f-uno;
     display: flex;
     flex-direction: column;
@@ -44,37 +45,24 @@ main div span{
     justify-content: center;
     }
 .f-dos {
+    @extend .f-uno;
     grid-area: f-dos;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     }
 .f-tres { 
-    grid-area: f-tres;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+     @extend .f-uno;
+     grid-area: f-tres;
     }
 .f-cuatro {
-    grid-area: f-cuatro;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+     @extend .f-uno;
+     grid-area: f-cuatro;
+
 }
 .f-cinco {
-    grid-area: f-cinco;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+     @extend .f-uno;
+     grid-area: f-cinco;
 }
 .f-seis {
-    grid-area: f-seis;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center
+     @extend .f-uno;
+     grid-area: f-seis;
 }
+

@@ -3,7 +3,7 @@
     width: 100%;
     height: 180vh;
     font-family:'Poppins', sans-serif;
-    background-color: #edeae5;
+    background-color: $background-main;
     column-gap: 5px; 
     row-gap: 9px;
     padding: 8%;
@@ -36,38 +36,23 @@
     align-content: center
     }
     .dos {
+    @extend .uno;
     grid-area: dos;
-    display: grid;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center
     }
     .tres { 
-    grid-area: tres;
-    display: grid;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center
-    }
+        @extend .uno;
+        grid-area: tres;
+        }
     .cuatro {
-    grid-area: cuatro;
-    display: grid;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center
+        @extend .uno;
+        grid-area: cuatro;
     }
     .cinco {
-    grid-area: cinco;
-    display: grid;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center
+        @extend .uno;
+        grid-area: cinco;
     }
     .seis {
-    grid-area: seis;
-    display: grid;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center
+        @extend .uno;
+        grid-area: seis;
     }
     

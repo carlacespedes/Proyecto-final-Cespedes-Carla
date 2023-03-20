@@ -110,16 +110,10 @@
 }
 }
 footer {
-    display: flex;
-    width: 100%; 
-    height: auto;
-    background-color: #E4C6BD ;
-    flex-direction: row;  
-    flex-wrap: wrap;
-    font-size: 13px;
-
+    .iconos-footer {
+        margin: 55px 1px 49px 15px;  
 }
 section ul li a img {
-    width: 18px;
-    height: 18px; 
-}}
+    width: 19px;
+    height: 19px; 
+}}}

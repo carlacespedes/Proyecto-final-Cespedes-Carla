@@ -81,15 +81,17 @@ footer {
     justify-content: center;
     font-family:'Poppins', sans-serif;
     font-size: 15px;
-}
-section ul li a img {
-    width: 19px;
-    height: 19px; }
+
 .iconos-footer {
     text-decoration: none;
     list-style: none;
     align-items: center;
-    margin: 55px 15px 49px 15px;
+    margin: 53px 1px 49px 15px;
+}
+
+section ul li a img {
+    width: 20px;
+    height: 20px; 
 }
 .texto-footer {
     display: flex;
@@ -99,4 +101,4 @@ section ul li a img {
     list-style: none;
     text-align:left;
     color:#FFFFFF;
-}}
+}}}

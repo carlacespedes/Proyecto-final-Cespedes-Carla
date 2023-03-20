@@ -90,16 +90,21 @@
 }
 /*M-queries de Page Favoritos*/
 .main-favoritos { 
-        row-gap: 50px;
+        row-gap: 44px;
+        padding: 1% 1% 10%;
 .text-banner-fav {
-        display: grid;
+        padding: 12% 0% 0%;
         font-size: 12px;
 }
 }
-footer{
-        display: flex;
-        width: 100%;
-        height: auto;
+footer {
         font-size: 12px;
+        .iconos-footer {
+                margin: 50px 1px 49px 15px;  
 }
-}
+section ul li a img {
+    width: 17px;
+    height: 17px; 
+}}}
+
+

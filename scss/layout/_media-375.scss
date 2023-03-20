@@ -52,7 +52,7 @@
 .main-favoritos { 
     justify-items: center;
     row-gap: 50px;
-   /* padding: 5% 5% 10% 5%;*/
+    padding: 1% 1% 10%;
     grid-template-columns: repeat (1, 1 fr);
     grid-template-rows: repeat 10% (2, 1 fr);
     grid-template-areas: 
@@ -61,7 +61,7 @@
     "foto-favdos" ;
     .text-banner-fav {
         display: grid;
-        /*padding: 8% 8% 0%;*/
+        padding: 8% 0% 0%;
     }
     .corazon{
             width: 20px;

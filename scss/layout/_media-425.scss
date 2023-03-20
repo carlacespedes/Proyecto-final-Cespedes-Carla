@@ -7,70 +7,43 @@
             .navbar {
                     font-size: 10px;
                     gap: 4px;
-                    margin: 40px 18px 40px 0px;   
+                    margin: 40px 22px 40px 0px;   
             } }
+            main div span{
+                padding: 3%;
+                font-size: 11px;
+                text-align: center;
+            }  
+            main div span a {
+                text-decoration: none;
+                list-style: none;
+                color:black;
+                font-family:'Poppins', sans-serif;
+                font-size: 10px;
+                }      
 /*M-queries de Page Index*/
 .main-index-media {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1%;
-    padding: 15% 0% 10%;
-    main div span{
+    column-gap: 1%;
+    padding: 15% 5% 10% 5%;
+    .img-1 img {
+        width: 90%;
+    }
+    .img-2 img {
+        width: 96%;
+    }
+    .item-2  {
+        font-size: 16px; 
+        bottom: 80px;
         padding: 3%;
-        font-size: 11px;
-        text-align: center;
-    }  
-    main div span a {
-        text-decoration: none;
-        list-style: none;
-        color:black;
-        font-family:'Poppins', sans-serif;
-        font-size: 10px;
-        }      
-.img-1 {
-    position:relative;
-    right: -43px;
-    width: 160px;
-    height: 300px;
-}
-.img-2 {
-    position:relative;
-    right: 33px;
-    width: 160px;
-    height: 300px;
-}
-.item-2 {
-    font-size: 12px; 
-    position:relative;
-    right: 86px;
-    bottom: 90px;
-}
-
-.item-4 {
-    font-size: 12px; 
-    position:relative;
-    right: -265px;
-    bottom: 110px;
-}
+    }
+    .item-4 {
+        font-size: 16px; 
+        bottom: 80px;
+        padding: 3%;
+    }
 }
 /*M-queries de Page indumentaria*/
 .main-indumentaria {
-    background-color: #edeae5;
-    display: grid;
-    width: 100%;
-    border-radius: 15%;
-    height: auto;
-    font-family:'Poppins', sans-serif;
-    grid-template-columns: repeat (2, 1 fr);
-    grid-template-rows: repeat (3, 1 fr);
-    grid-template-areas: 
-    "f-uno f-dos"
-    "f-tres f-cuatro"
-    "f-cinco f-seis";
     .f-uno img {
             width: 80%;
         }
@@ -92,68 +65,13 @@
 }
 /*M-queries de Page decoracion*/
 .main-decoracion {
-    background-color: #edeae5;
-    display: grid;
-    width: 100%;
-    height: auto;
-    font-family:'Poppins', sans-serif;
-    font-size: 13px;
-    column-gap: 5px;
-    row-gap: 5px;
-    padding: 8%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15%;
-    grid-template-columns: repeat (2, 1 fr);
-    grid-template-rows: repeat (4, 1 fr);
-    grid-template-areas: 
-    "text-banner text-banner"
-    "uno dos"
-    "tres cuatro"
-    "cinco seis";
 .text-banner {
-    display: grid;
     font-size: 13px;
-    padding: 2% 0% 8% 0%;
 }
 .fotos-queries-320{ 
-    display:grid;
     justify-items: center;
     width: 80%;
 }
-.uno {
-    grid-area: uno;
-    display: grid;
-    justify-items: center;
-    }
-    .dos {
-    grid-area: dos;
-    display: grid;
-    justify-items: center;
-    }
-    
-    .tres { 
-    grid-area: tres;
-    display: grid;
-    justify-items: center;
-    }
-    
-    .cuatro {
-    grid-area: cuatro;
-    display: grid;
-    justify-items: center;
-    }
-    .cinco {
-    grid-area: cinco;
-    display: grid;
-    justify-items: center;
-    }
-    .seis {
-    grid-area: seis;
-    display: grid;
-    justify-items: center;
-    }
-
 }
 /*M-queries de Page registracion*/
 .main-regis-media{
@@ -175,23 +93,20 @@
 }
 /*M-queries de Page favoritos*/
 .main-favoritos { 
-    width: 100%;
-    height: auto;
-    padding: 5% 0% 18%;
     .text-banner-fav {
-        font-size: 12px;
+        font-size: 13px;
     }
     .foto-favuno img {
-        width: 120px;
-        height: 230px;
+        width: 110px;
+        height: 210px;
 }
     .foto-favdos img {
-        width: 120px;
-        height: 230px;
+        width: 110px;
+        height: 210px;
 }
     .foto-favtres img { 
-        width: 120px;
-        height: 230px;
+        width: 110px;
+        height: 210px;
 }
 }
 footer {

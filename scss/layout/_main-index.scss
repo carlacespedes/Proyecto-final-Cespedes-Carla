@@ -1,4 +1,3 @@
-
 .main-index-media {
 display: grid;
 width: 100%;
@@ -8,23 +7,21 @@ border-radius: 15%;
 justify-content:center;
 align-items: center;
 justify-items: center;
-row-gap: 8px;
-column-gap: 9%;
+column-gap: 6%;
 padding: 5%;
 grid-template-columns: repeat (2, 1 fr);
 grid-template-rows: repeat (2, 1 fr);
 grid-template-areas: 
 "img-1  img-2 "
 "img-1  img-2 ";
-
 .img-1 {
-    /* width: 70%;*/
     display: grid;
+    justify-items: center;
     @include uno(column,center,center)
 }
 .img-2 {
-   /* width: 70%;*/
     display: grid;
+    justify-items: center;
     @include uno(column,center,center)
 }
 .item-2  {
@@ -39,8 +36,7 @@ grid-template-areas:
     bottom: 165px;
     background-color:#ffffff1f;
     border-radius:  10%;
-    padding: 4%;
-
+    padding: 3%;
 }
 .item-4 {
 @extend .item-2;

@@ -1,0 +1,56 @@
+@media (max-width:560px) {
+    header{ 
+        .navbar {
+            font-size: 12px;
+    } }
+    main div span{
+        font-size: 12px;
+    }  
+    main div span a {
+        font-size: 12px;
+        }      
+/*M-queries de Page Index*/
+.main-index-media {
+    .item-2  {
+        bottom: 70px;
+    }
+    .item-4 {
+        bottom: 70px;
+    }
+}
+/*M-queries de Page decoracion*/
+.main-decoracion {
+    .text-banner {
+        font-size: 16px;
+    }}
+/*M-queries de Page Registracion*/
+.main-regis-media{ 
+    .registrarme {
+        font-size: 12px;
+    }
+    .class-formu {
+        padding: 50px 120px 60px 120px;
+    }}
+    /*M-queries de Page Favoritos*/
+    .main-favoritos { 
+        row-gap: 6px;
+        .text-banner-fav {
+            font-size: 17px;
+        }
+        .corazon{
+            width: 9%;
+            margin: 10px 140px 10px 140px;
+        }
+        .foto-favuno img {
+            width: 120px;
+            height: 220px;
+    }
+        .foto-favdos img {
+            width: 120px;
+            height: 220px;
+    }
+        .foto-favtres img { 
+            width: 120px;
+            height: 220px;
+    }
+    }}

@@ -1,6 +1,27 @@
-@media (max-width:1440px) {
+@media(max-width:1440px){
+    header{
+        font-size: 20px;
+    }
 /*M-queries de Page Registracion*/
+.main-regis-media{
+        display: flex;
+        width: 100%;
+        height: 110vh;
+        font-size: 16px;
+.registrarme-banner {
+    font-size: 21px;
+    margin: 70px 100px 40px 100px 
+}
+.registrarme {
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+}
 .class-formu {
-    padding: 70px 350px 40px 350px;
+    padding: 40px 350px 40px 350px;
 }
+/*M-queries de Page Decoracion*/
+.main-decoracion {
+    height: auto;
 }
+}}

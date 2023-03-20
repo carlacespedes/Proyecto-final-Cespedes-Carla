@@ -11,8 +11,7 @@ header {
   flex-wrap: wrap;
   background-color: #FFFFFF;
   justify-content: space-between;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px; }
+  font-family: 'Poppins', sans-serif; }
   header .logo {
     margin: 30px 2px 2px 40px; }
   header nav {
@@ -20,6 +19,7 @@ header {
   header .navbar {
     display: flex;
     list-style: none;
+    font-size: 16px;
     gap: 12px;
     margin: 40px 38px 40px 0px; }
     header .navbar li a {
@@ -39,21 +39,20 @@ header {
   justify-content: center;
   align-items: center;
   justify-items: center;
-  row-gap: 8px;
-  column-gap: 9%;
+  column-gap: 6%;
   padding: 5%;
   grid-template-columns: repeat 2, 1 fr;
   grid-template-rows: repeat 2, 1 fr;
   grid-template-areas: "img-1  img-2 " "img-1  img-2 "; }
   .main-index-media .img-1 {
-    /* width: 70%;*/
     display: grid;
+    justify-items: center;
     flex-direction: column;
     justify-content: center;
     align-content: center; }
   .main-index-media .img-2 {
-    /* width: 70%;*/
     display: grid;
+    justify-items: center;
     flex-direction: column;
     justify-content: center;
     align-content: center; }
@@ -69,7 +68,7 @@ header {
     bottom: 165px;
     background-color: #ffffff1f;
     border-radius: 10%;
-    padding: 4%; }
+    padding: 3%; }
   .main-index-media .item-4 {
     right: 1px; }
 
@@ -125,11 +124,11 @@ header {
   height: auto;
   background-color: #edeae5;
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  column-gap: 5px;
+  column-gap: 40px;
   row-gap: 9px;
   border-radius: 15%;
   padding: 10%;
+  justify-content: center;
   grid-template-columns: repeat 3, 1 fr;
   grid-template-rows: repeat 2, 1 fr;
   grid-template-areas: "f-uno f-dos f-tres" "f-cuatro f-cinco f-seis"; }
@@ -143,7 +142,7 @@ main div span a {
   list-style: none;
   color: black;
   font-family: 'Poppins', sans-serif;
-  font-size: 18px; }
+  font-size: 16px; }
 
 main div img {
   border-radius: 15%; }
@@ -178,11 +177,11 @@ main div span {
 .main-decoracion {
   display: grid;
   width: 100%;
-  height: 180vh;
+  height: auto;
   font-family: 'Poppins', sans-serif;
   background-color: #edeae5;
   column-gap: 5px;
-  row-gap: 9px;
+  row-gap: 25px;
   padding: 8%;
   justify-content: center;
   align-items: center;
@@ -205,6 +204,7 @@ main div span {
 .uno, .dos, .tres, .cuatro, .cinco, .seis {
   grid-area: uno;
   display: grid;
+  justify-items: center;
   flex-direction: row;
   justify-content: center;
   align-content: center; }
@@ -308,6 +308,7 @@ main div span {
   height: 140vh;
   background-color: #edeae5;
   border-radius: 15%;
+  font-size: 16px;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -390,7 +391,7 @@ footer {
     text-decoration: none;
     list-style: none;
     align-items: center;
-    margin: 49px 15px 49px 15px; }
+    margin: 53px 15px 49px 15px; }
   footer .texto-footer {
     display: flex;
     flex-direction: column;
@@ -403,79 +404,110 @@ footer {
     gap: 7px; }
 
 @media (max-width: 1440px) {
+  header {
+    font-size: 20px; }
   /*M-queries de Page Registracion*/
-  .class-formu {
-    padding: 70px 350px 40px 350px; } }
+  .main-regis-media {
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    font-size: 16px;
+    /*M-queries de Page Decoracion*/ }
+    .main-regis-media .registrarme-banner {
+      font-size: 21px;
+      margin: 70px 100px 40px 100px; }
+    .main-regis-media .registrarme {
+      text-align: center;
+      font-size: 18px;
+      padding: 30px; }
+    .main-regis-media .class-formu {
+      padding: 40px 350px 40px 350px; }
+    .main-regis-media .main-decoracion {
+      height: auto; } }
 
 @media (max-width: 1024px) {
+  header {
+    font-size: 16px; }
+  /*M-queries de Page Indumentaria*/
+  .main-indumentaria {
+    height: auto;
+    column-gap: 25px;
+    row-gap: 20px;
+    padding: 8%; }
+  /*M-queries de Page decoracion*/
+  .main-decoracion {
+    /*M-queries de Page Favoritos*/
+    /*M-queries de Page Registracion*/ }
+    .main-decoracion .text-banner {
+      font-size: 21px; }
+    .main-decoracion .main-favoritos .text-banner-fav {
+      font-size: 25px; }
+    .main-decoracion .main-regis-media {
+      display: flex;
+      width: 100%;
+      height: 110vh;
+      font-size: 16px; }
+      .main-decoracion .main-regis-media .registrarme-banner {
+        font-size: 21px;
+        margin: 70px 100px 40px 100px; }
+      .main-decoracion .main-regis-media .registrarme {
+        text-align: center;
+        font-size: 16px;
+        padding: 30px; }
+      .main-decoracion .main-regis-media .class-formu {
+        padding: 50px 250px 60px 250px; } }
+
+@media (max-width: 910px) {
+  .logo {
+    width: 70%; }
+  .navbar {
+    font-size: 15px; }
+  main div span {
+    font-size: 14px; }
+  main div span a {
+    font-size: 15px; }
   /*M-queries de Page Index*/
-  /*.main-index-media {
-    width: 100%;
-    height: 120vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1%;
-.img-1 {
-    position:relative;
-    right: -100px;
-    width: 310px;
-    height: 510px;
-}
-.img-2 {
-    position:relative;
-    right: -40px;
-    width: 310px;
-    height: 510px;
-}
-.item-2 {
-    font-size: 21px; 
-    position:relative;
-    right: 140px;
-    bottom: 90px;
-}
-
-.item-4 {
-    font-size: 21px; 
-    position:relative;
-    right: 186px;
-    bottom: 92px;
-}*/ }
-
-/*M-queries de Page Indumentaria*/
-.main-indumentaria {
-  height: auto;
-  column-gap: 5px;
-  row-gap: 5px;
-  padding: 8%; }
-
-/*M-queries de Page decoracion*/
-.main-decoracion {
-  background-color: #edeae5;
-  display: grid;
-  width: 100%;
-  height: 200vh;
-  row-gap: 6%; }
-
-/*M-queries de Page Favoritos*/
-.main-favoritos .text-banner-fav {
-  font-size: 25px; }
-
-/*M-queries de Page Registracion*/
-.main-regis-media {
-  display: flex;
-  width: 100%;
-  height: 110vh; }
-  .main-regis-media .registrarme-banner {
-    font-size: 21px;
-    margin: 70px 100px 40px 100px; }
-  .main-regis-media .registrarme {
-    text-align: center;
-    font-size: 16px;
-    padding: 30px; }
-  .main-regis-media .class-formu {
-    padding: 40px 250px 40px 250px; }
+  .main-index-media .img-1 img {
+    width: 80%; }
+  .main-index-media .img-2 img {
+    width: 84%; }
+  .main-index-media .item-2, .main-index-media .item-4 {
+    bottom: 119px;
+    font-size: 20px; }
+  .main-index-media .item-4 {
+    bottom: 120px;
+    font-size: 20px; }
+  /*M-queries de Page Indumentaria*/
+  .main-indumentaria .f-uno img, .main-indumentaria .f-dos img, .main-indumentaria .f-tres img, .main-indumentaria .f-cuatro img, .main-indumentaria .f-cinco img, .main-indumentaria .f-seis img {
+    width: 90%; }
+  .main-indumentaria .f-dos img {
+    width: 90%; }
+  .main-indumentaria .f-tres img {
+    width: 90%; }
+  .main-indumentaria .f-cuatro img {
+    width: 90%; }
+  .main-indumentaria .f-cinco img {
+    width: 90%; }
+  .main-indumentaria .f-seis img {
+    width: 90%; }
+  /*M-queries de Page decoracion*/
+  .main-decoracion .text-banner {
+    font-size: 20px; }
+  .main-decoracion .fotos-queries-320 {
+    justify-items: center;
+    width: 90%; }
+  /*M-queries de Page Favoritos*/
+  .main-favoritos .text-banner-fav {
+    font-size: 22px; }
+  .main-favoritos .foto-favuno img, .main-favoritos .foto-favdos img, .main-favoritos .foto-favtres img {
+    width: 210px;
+    height: 360px; }
+  .main-favoritos .foto-favdos img {
+    width: 210px;
+    height: 360px; }
+  .main-favoritos .foto-favtres img {
+    width: 210px;
+    height: 360px; } }
 
 @media (max-width: 768px) {
   .logo {
@@ -484,60 +516,16 @@ footer {
     font-size: 14px;
     gap: 5px;
     margin: 40px 30px 50px 0px; }
-  /*M-queries de Page Index*/
-  /*
-.main-index-media {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1%;
-    padding: 10% 0%;
-    main div span{
-        padding: 3%;
-        font-size: 14px;
-        text-align: center;
-    }  
-    main div span a {
-        text-decoration: none;
-        list-style: none;
-        color:black;
-        font-family:'Poppins', sans-serif;
-        font-size: 16px;
-        }        
-.img-1 {
-    position:relative;
-    right: -50px;
-    width: 280px;
-    height: 460px;
-}
-.img-2 {
-    position:relative;
-    right: -10px;
-    width: 280px;
-    height: 460px;
-}
-.item-2 {
-    font-size: 21px; 
-    position:relative;
-    right: 170px;
-    bottom: 90px;
-}
-
-.item-4 {
-    font-size: 21px; 
-    position:relative;
-    right: -525px;
-    bottom: 110px;
-}
-}*/
+  main div span {
+    font-size: 14px; }
+  main div span a {
+    font-size: 14px; }
   /*M-queries de Page Indumentaria*/
   .main-indumentaria {
     display: grid;
     width: 100%;
     border-radius: 15%;
+    justify-content: center;
     height: auto;
     font-family: 'Poppins', sans-serif;
     grid-template-columns: repeat 2, 1 fr;
@@ -548,6 +536,8 @@ footer {
     display: grid;
     width: 100%;
     height: auto;
+    justify-content: center;
+    align-content: center;
     font-size: 18px;
     column-gap: 5px;
     row-gap: 5px;
@@ -574,18 +564,6 @@ footer {
       padding: 25px; }
     .main-regis-media .class-formu {
       padding: 50px 180px 60px 180px; }
-  /*M-queries de Page Favoritos*/
-  .main-favoritos .text-banner-fav {
-    font-size: 22px; }
-  .main-favoritos .foto-favuno img, .main-favoritos .foto-favdos img, .main-favoritos .foto-favtres img {
-    width: 210px;
-    height: 360px; }
-  .main-favoritos .foto-favdos img {
-    width: 210px;
-    height: 360px; }
-  .main-favoritos .foto-favtres img {
-    width: 210px;
-    height: 360px; }
   footer {
     display: flex;
     width: 100%;
@@ -595,11 +573,15 @@ footer {
     align-content: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px; }
+    font-size: 15px; }
+  section ul li a img {
+    width: 19px;
+    height: 19px; }
   .iconos-footer {
     text-decoration: none;
     list-style: none;
-    align-items: center; }
+    align-items: center;
+    margin: 55px 15px 49px 15px; }
   .texto-footer {
     display: flex;
     flex-direction: column;
@@ -609,6 +591,109 @@ footer {
     text-align: left;
     color: #FFFFFF; } }
 
+@media (max-width: 740px) {
+  /*M-queries de Page Favoritos*/
+  .main-favoritos .text-banner-fav {
+    font-size: 20px; }
+  .main-favoritos .foto-favuno img, .main-favoritos .foto-favdos img, .main-favoritos .foto-favtres img {
+    width: 180px;
+    height: 310px; }
+  .main-favoritos .foto-favdos img {
+    width: 180px;
+    height: 310px; }
+  .main-favoritos .foto-favtres img {
+    width: 180px;
+    height: 310px; } }
+
+@media (max-width: 640px) {
+  header .navbar {
+    font-size: 13px;
+    margin: 40px 15px 50px 0px; }
+  /*M-queries de Page Index*/
+  .main-index-media {
+    padding: 6% 8% 1% 6%; }
+    .main-index-media .item-2, .main-index-media .item-4 {
+      font-size: 16px;
+      bottom: 80px; }
+    .main-index-media .item-4 {
+      font-size: 16px;
+      bottom: 80px; }
+  /*M-queries de Page Indumentaria*/
+  .main-indumentaria .f-uno img, .main-indumentaria .f-dos img, .main-indumentaria .f-tres img, .main-indumentaria .f-cuatro img, .main-indumentaria .f-cinco img, .main-indumentaria .f-seis img {
+    width: 80%; }
+  .main-indumentaria .f-dos img {
+    width: 80%; }
+  .main-indumentaria .f-tres img {
+    width: 80%; }
+  .main-indumentaria .f-cuatro img {
+    width: 80%; }
+  .main-indumentaria .f-cinco img {
+    width: 80%; }
+  .main-indumentaria .f-seis img {
+    width: 80%; }
+  /*M-queries de Page decoracion*/
+  .main-decoracion .text-banner {
+    font-size: 18px; }
+  .main-decoracion .fotos-queries-320 {
+    display: grid;
+    justify-items: center;
+    width: 90%; }
+  /*M-queries de Page Registracion*/
+  .main-regis-media .registrarme {
+    font-size: 13px; }
+  .main-regis-media .class-formu {
+    padding: 50px 150px 60px 150px; }
+  /*M-queries de Page Favoritos*/
+  .main-favoritos .text-banner-fav {
+    font-size: 19px; }
+  .main-favoritos .foto-favuno img, .main-favoritos .foto-favdos img, .main-favoritos .foto-favtres img {
+    width: 160px;
+    height: 270px; }
+  .main-favoritos .foto-favdos img {
+    width: 160px;
+    height: 270px; }
+  .main-favoritos .foto-favtres img {
+    width: 160px;
+    height: 270px; } }
+
+@media (max-width: 560px) {
+  header .navbar {
+    font-size: 12px; }
+  main div span {
+    font-size: 12px; }
+  main div span a {
+    font-size: 12px; }
+  /*M-queries de Page Index*/
+  .main-index-media .item-2, .main-index-media .item-4 {
+    bottom: 70px; }
+  .main-index-media .item-4 {
+    bottom: 70px; }
+  /*M-queries de Page decoracion*/
+  .main-decoracion .text-banner {
+    font-size: 16px; }
+  /*M-queries de Page Registracion*/
+  .main-regis-media .registrarme {
+    font-size: 12px; }
+  .main-regis-media .class-formu {
+    padding: 50px 120px 60px 120px; }
+  /*M-queries de Page Favoritos*/
+  .main-favoritos {
+    row-gap: 6px; }
+    .main-favoritos .text-banner-fav {
+      font-size: 17px; }
+    .main-favoritos .corazon {
+      width: 9%;
+      margin: 10px 140px 10px 140px; }
+    .main-favoritos .foto-favuno img, .main-favoritos .foto-favdos img, .main-favoritos .foto-favtres img {
+      width: 120px;
+      height: 220px; }
+    .main-favoritos .foto-favdos img {
+      width: 120px;
+      height: 220px; }
+    .main-favoritos .foto-favtres img {
+      width: 120px;
+      height: 220px; } }
+
 @media (max-width: 425px) {
   header .logo {
     width: 50%;
@@ -616,119 +701,52 @@ footer {
   header .navbar {
     font-size: 10px;
     gap: 4px;
-    margin: 40px 18px 40px 0px; }
+    margin: 40px 22px 40px 0px; }
+  main div span {
+    padding: 3%;
+    font-size: 11px;
+    text-align: center; }
+  main div span a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px; }
   /*M-queries de Page Index*/
   .main-index-media {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1%;
-    padding: 15% 0% 10%; }
-    .main-index-media main div span {
-      padding: 3%;
-      font-size: 11px;
-      text-align: center; }
-    .main-index-media main div span a {
-      text-decoration: none;
-      list-style: none;
-      color: black;
-      font-family: 'Poppins', sans-serif;
-      font-size: 10px; }
-    .main-index-media .img-1 {
-      position: relative;
-      right: -43px;
-      width: 160px;
-      height: 300px; }
-    .main-index-media .img-2 {
-      position: relative;
-      right: 33px;
-      width: 160px;
-      height: 300px; }
+    column-gap: 1%;
+    padding: 15% 5% 10% 5%; }
+    .main-index-media .img-1 img {
+      width: 90%; }
+    .main-index-media .img-2 img {
+      width: 96%; }
     .main-index-media .item-2, .main-index-media .item-4 {
-      font-size: 12px;
-      position: relative;
-      right: 86px;
-      bottom: 90px; }
+      font-size: 16px;
+      bottom: 80px;
+      padding: 3%; }
     .main-index-media .item-4 {
-      font-size: 12px;
-      position: relative;
-      right: -265px;
-      bottom: 110px; }
+      font-size: 16px;
+      bottom: 80px;
+      padding: 3%; }
   /*M-queries de Page indumentaria*/
-  .main-indumentaria {
-    background-color: #edeae5;
-    display: grid;
-    width: 100%;
-    border-radius: 15%;
-    height: auto;
-    font-family: 'Poppins', sans-serif;
-    grid-template-columns: repeat 2, 1 fr;
-    grid-template-rows: repeat 3, 1 fr;
-    grid-template-areas: "f-uno f-dos" "f-tres f-cuatro" "f-cinco f-seis"; }
-    .main-indumentaria .f-uno img, .main-indumentaria .f-dos img, .main-indumentaria .f-tres img, .main-indumentaria .f-cuatro img, .main-indumentaria .f-cinco img, .main-indumentaria .f-seis img {
-      width: 80%; }
-    .main-indumentaria .f-dos img {
-      width: 80%; }
-    .main-indumentaria .f-tres img {
-      width: 80%; }
-    .main-indumentaria .f-cuatro img {
-      width: 80%; }
-    .main-indumentaria .f-cinco img {
-      width: 80%; }
-    .main-indumentaria .f-seis img {
-      width: 80%; }
+  .main-indumentaria .f-uno img, .main-indumentaria .f-dos img, .main-indumentaria .f-tres img, .main-indumentaria .f-cuatro img, .main-indumentaria .f-cinco img, .main-indumentaria .f-seis img {
+    width: 80%; }
+  .main-indumentaria .f-dos img {
+    width: 80%; }
+  .main-indumentaria .f-tres img {
+    width: 80%; }
+  .main-indumentaria .f-cuatro img {
+    width: 80%; }
+  .main-indumentaria .f-cinco img {
+    width: 80%; }
+  .main-indumentaria .f-seis img {
+    width: 80%; }
   /*M-queries de Page decoracion*/
-  .main-decoracion {
-    background-color: #edeae5;
-    display: grid;
-    width: 100%;
-    height: auto;
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    column-gap: 5px;
-    row-gap: 5px;
-    padding: 8%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15%;
-    grid-template-columns: repeat 2, 1 fr;
-    grid-template-rows: repeat 4, 1 fr;
-    grid-template-areas: "text-banner text-banner" "uno dos" "tres cuatro" "cinco seis"; }
-    .main-decoracion .text-banner {
-      display: grid;
-      font-size: 13px;
-      padding: 2% 0% 8% 0%; }
-    .main-decoracion .fotos-queries-320 {
-      display: grid;
-      justify-items: center;
-      width: 80%; }
-    .main-decoracion .uno, .main-decoracion .dos, .main-decoracion .tres, .main-decoracion .cuatro, .main-decoracion .cinco, .main-decoracion .seis {
-      grid-area: uno;
-      display: grid;
-      justify-items: center; }
-    .main-decoracion .dos {
-      grid-area: dos;
-      display: grid;
-      justify-items: center; }
-    .main-decoracion .tres {
-      grid-area: tres;
-      display: grid;
-      justify-items: center; }
-    .main-decoracion .cuatro {
-      grid-area: cuatro;
-      display: grid;
-      justify-items: center; }
-    .main-decoracion .cinco {
-      grid-area: cinco;
-      display: grid;
-      justify-items: center; }
-    .main-decoracion .seis {
-      grid-area: seis;
-      display: grid;
-      justify-items: center; }
+  .main-decoracion .text-banner {
+    font-size: 13px; }
+  .main-decoracion .fotos-queries-320 {
+    justify-items: center;
+    width: 80%; }
   /*M-queries de Page registracion*/
   .main-regis-media {
     width: auto;
@@ -744,21 +762,17 @@ footer {
     .main-regis-media .class-formu {
       padding: 40px 90px 60px 90px; }
   /*M-queries de Page favoritos*/
-  .main-favoritos {
-    width: 100%;
-    height: auto;
-    padding: 5% 0% 18%; }
-    .main-favoritos .text-banner-fav {
-      font-size: 12px; }
-    .main-favoritos .foto-favuno img, .main-favoritos .foto-favdos img, .main-favoritos .foto-favtres img {
-      width: 120px;
-      height: 230px; }
-    .main-favoritos .foto-favdos img {
-      width: 120px;
-      height: 230px; }
-    .main-favoritos .foto-favtres img {
-      width: 120px;
-      height: 230px; }
+  .main-favoritos .text-banner-fav {
+    font-size: 13px; }
+  .main-favoritos .foto-favuno img, .main-favoritos .foto-favdos img, .main-favoritos .foto-favtres img {
+    width: 110px;
+    height: 210px; }
+  .main-favoritos .foto-favdos img {
+    width: 110px;
+    height: 210px; }
+  .main-favoritos .foto-favtres img {
+    width: 110px;
+    height: 210px; }
   footer {
     display: flex;
     width: 100%;
@@ -771,44 +785,94 @@ footer {
     width: 18px;
     height: 18px; } }
 
+@media (max-width: 375px) {
+  header .logo {
+    width: 38%;
+    margin: 20px 30px 2px 127px; }
+  header .navbar {
+    font-size: 11px;
+    gap: 20px;
+    margin: 5px 0px 10px 73px; }
+  /*M-queries de Page Index*/
+  .main-index-media .img-1 img {
+    width: 95%; }
+  .main-index-media .img-2 img {
+    width: 96%; }
+  .main-index-media .item-2, .main-index-media .item-4 {
+    font-size: 13px;
+    bottom: 70px;
+    padding: 3%; }
+  .main-index-media .item-4 {
+    font-size: 14px;
+    bottom: 70px; }
+  .main-decoracion {
+    /*M-queries de Page registracion*/ }
+    .main-decoracion .text-banner {
+      font-size: 12px; }
+    .main-decoracion .main-regis-media {
+      width: auto;
+      height: auto;
+      font-size: 11px; }
+      .main-decoracion .main-regis-media .registrarme-banner {
+        font-size: 14px;
+        margin: 50px 30px 40px 30px; }
+      .main-decoracion .main-regis-media .registrarme {
+        text-align: center;
+        font-size: 9px;
+        padding: 20px; }
+  /*M-queries de Page Favoritos*/
+  .main-favoritos {
+    justify-items: center;
+    row-gap: 50px;
+    /* padding: 5% 5% 10% 5%;*/
+    grid-template-columns: repeat 1, 1 fr;
+    grid-template-rows: repeat 10% 2, 1 fr;
+    grid-template-areas: "text-banner-fav" "foto-favuno" "foto-favdos"; }
+    .main-favoritos .text-banner-fav {
+      display: grid;
+      /*padding: 8% 8% 0%;*/ }
+    .main-favoritos .corazon {
+      width: 20px;
+      height: 20px; }
+    .main-favoritos .foto-favuno, .main-favoritos .foto-favdos, .main-favoritos .foto-favtres {
+      grid-area: foto-favuno;
+      display: grid;
+      flex-direction: row;
+      width: 140px;
+      height: 210px; }
+    .main-favoritos .foto-favdos {
+      grid-area: foto-favdos;
+      display: grid;
+      flex-direction: row;
+      width: 140px;
+      height: 210px; }
+    .main-favoritos .foto-favtres {
+      display: none; }
+    .main-favoritos .texto-fotos {
+      display: none; }
+    .main-favoritos .texto-precios {
+      display: none; } }
+
 @media (max-width: 320px) {
   header .logo {
-    width: 40%;
+    width: 38%;
     margin: 20px 20px 2px 105px; }
   header .navbar {
     font-size: 10px;
     gap: 20px;
     margin: 5px 0px 10px 60px; }
   /*M-queries de Page Index*/
-  .main-index-media {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1%;
-    padding: 10% 0% 10%; }
-    .main-index-media .img-1 {
-      position: relative;
-      right: -80px;
-      width: 160px;
-      height: 280px; }
-    .main-index-media .img-2 {
-      position: relative;
-      right: -80px;
-      width: 160px;
-      height: 280px; }
-    .main-index-media .item-2, .main-index-media .item-4 {
-      font-size: 12px;
-      position: relative;
-      right: 50px;
-      bottom: 60px; }
-    .main-index-media .item-4 {
-      font-size: 12px;
-      position: relative;
-      right: 44px;
-      bottom: 60px; }
+  .main-index-media .img-1 img {
+    width: 95%; }
+  .main-index-media .img-2 img {
+    width: 102%; }
+  .main-index-media .item-2, .main-index-media .item-4 {
+    font-size: 14px;
+    bottom: 60px;
+    padding: 3%; }
+  .main-index-media .item-4 {
+    font-size: 14px;
+    bottom: 60px; }
   /*M-queries de Page Indumentaria*/
   .main-indumentaria {
     background-color: #edeae5;
@@ -843,7 +907,7 @@ footer {
     font-size: 10px; }
     .main-regis-media .registrarme-banner {
       font-size: 12px;
-      margin: 40px 50px 35px 50px; }
+      margin: 40px 50px 30px 50px; }
     .main-regis-media .registrarme {
       text-align: center;
       font-size: 9px;
@@ -852,43 +916,10 @@ footer {
       padding: 40px 40px 50px 40px; }
   /*M-queries de Page Favoritos*/
   .main-favoritos {
-    background-color: #edeae5;
-    display: grid;
-    width: 100%;
-    height: auto;
-    border-radius: 15%;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    row-gap: 40px;
-    justify-items: center;
-    padding: 10% 10% 30% 10%;
-    grid-template-columns: repeat 1, 1 fr;
-    grid-template-rows: repeat 10% 2, 1 fr;
-    grid-template-areas: "text-banner-fav" "foto-favuno" "foto-favdos"; }
+    row-gap: 50px; }
     .main-favoritos .text-banner-fav {
+      display: grid;
       font-size: 12px; }
-    .main-favoritos .corazon {
-      width: 20px;
-      height: 20px; }
-    .main-favoritos .foto-favuno, .main-favoritos .foto-favdos, .main-favoritos .foto-favtres {
-      grid-area: foto-favuno;
-      display: grid;
-      flex-direction: row;
-      width: 140px;
-      height: 210px; }
-    .main-favoritos .foto-favdos {
-      grid-area: foto-favdos;
-      display: grid;
-      flex-direction: row;
-      width: 140px;
-      height: 210px; }
-  .foto-favtres {
-    grid-area: foto-favtres;
-    display: grid;
-    flex-direction: row;
-    width: 140px;
-    height: 210px; }
   footer {
     display: flex;
     width: 100%;

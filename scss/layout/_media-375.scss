@@ -1,0 +1,93 @@
+@media(max-width:375px) {
+    header{  
+        .logo{ 
+                width: 38%;
+                margin: 20px 30px 2px 127px;
+                }
+        .navbar {
+                font-size: 11px;
+                gap: 20px;
+                margin: 5px 0px 10px 73px; 
+        } 
+        } 
+        /*M-queries de Page Index*/
+    .main-index-media {
+        .img-1 img {
+            width: 95%;
+        }
+        .img-2 img {       
+            width: 96%;
+        }    
+    .item-2 {
+        font-size: 13px; 
+        bottom: 70px;
+        padding: 3%;
+    }
+    .item-4 {
+    font-size: 14px; 
+    bottom: 70px;
+    }
+}
+.main-decoracion {
+.text-banner {
+    font-size: 12px;
+}
+/*M-queries de Page registracion*/
+.main-regis-media{
+    width: auto;
+    height: auto;
+    font-size: 11px;
+
+.registrarme-banner {
+    font-size: 14px;
+    margin: 50px 30px 40px 30px;  
+}
+.registrarme {
+    text-align: center;
+    font-size: 9px;
+    padding: 20px;
+}
+}}
+/*M-queries de Page Favoritos*/
+.main-favoritos { 
+    justify-items: center;
+    row-gap: 50px;
+   /* padding: 5% 5% 10% 5%;*/
+    grid-template-columns: repeat (1, 1 fr);
+    grid-template-rows: repeat 10% (2, 1 fr);
+    grid-template-areas: 
+    "text-banner-fav"
+    "foto-favuno"
+    "foto-favdos" ;
+    .text-banner-fav {
+        display: grid;
+        /*padding: 8% 8% 0%;*/
+    }
+    .corazon{
+            width: 20px;
+            height: 20px;
+            }
+    .foto-favuno {
+        grid-area: foto-favuno; 
+        display: grid;
+        flex-direction: row;
+        width: 140px;
+        height: 210px;  
+}
+    .foto-favdos{
+        grid-area: foto-favdos;
+        display: grid;
+        flex-direction: row;
+        width: 140px;
+        height: 210px;  
+}
+    .foto-favtres{  
+        display: none;
+    }
+    .texto-fotos{
+        display: none;
+    }
+    .texto-precios{
+        display: none;
+    }
+}}

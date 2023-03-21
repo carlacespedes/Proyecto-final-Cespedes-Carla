@@ -28,10 +28,25 @@
         bottom: 70px;
     }
 }
+/*M-queries de Page indumentaria*/
+.main-indumentaria {
+    .queries-indumentaria{
+            justify-items: center;
+            width: 140px;
+            height: 140px;
+    }}
 .main-decoracion {
-.text-banner {
-    font-size: 12px;
-}
+/*M-queries de Page decoracion*/
+.main-decoracion {
+    .text-banner {
+        font-size: 12px;
+    }
+    .fotos-queries-320{ 
+        justify-items: center;
+        width: 140px;
+        height: 170px;
+    }
+    }}
 /*M-queries de Page registracion*/
 .main-regis-media{
     width: auto;
@@ -47,7 +62,7 @@
     font-size: 9px;
     padding: 20px;
 }
-}}
+}
 /*M-queries de Page Favoritos*/
 .main-favoritos { 
     justify-items: center;

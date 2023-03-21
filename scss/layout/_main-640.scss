@@ -1,68 +1,55 @@
 @media (max-width:640px) {
-    header{ 
+header{ 
         .logo{
-            margin: 30px 2px 2px 26px;
+        margin: 30px 2px 2px 26px;
         }
-    .navbar {
+.navbar {
         font-size: 13px;
         margin: 40px 15px 50px 0px;   
 } }
 /*M-queries de Page Index*/
 .main-index-media {
-    padding: 6% 8% 1% 6%;
+padding: 6% 8% 1% 6%;
 .item-2  {
         font-size: 16px; 
         bottom: 80px;
-    }
+}
 .item-4 {
         font-size: 16px; 
         bottom: 80px;
-    }
+}
 }
 /*M-queries de Page Indumentaria*/
 .main-indumentaria {
-.f-uno img {
-        width: 80%;
-    }
-.f-dos img {
-        width: 80%;
-        }
-.f-tres img  {
-        width: 80%;
-        }
-.f-cuatro img {
-        width: 80%;
-        }
-.f-cinco img {
-        width: 80%;
-        }
-.f-seis img {
-        width: 80%;
-        }
+.queries-indumentaria{
+        justify-items: center;
+        width: 220px;
+        height: 220px;
+}
 }
 /*M-queries de Page decoracion*/
 .main-decoracion{ 
 .text-banner {
         font-size: 18px;
-    }
+}
 .fotos-queries-320{ 
-        display:grid;
         justify-items: center;
-        width: 90%;
-    }}
+        width: 190px;
+        height: 220px;
+}}
 /*M-queries de Page Registracion*/
 .main-regis-media{ 
 .registrarme {
         font-size: 13px;
-    }
+}
 .class-formu {
         padding: 50px 150px 60px 150px;
-    }}
+}}
 /*M-queries de Page Favoritos*/
 .main-favoritos { 
 .text-banner-fav {
         font-size: 19px;
-    }
+}
 .foto-favuno img {
         width: 160px;
         height: 270px;

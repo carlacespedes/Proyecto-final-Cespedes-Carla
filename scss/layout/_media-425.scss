@@ -44,33 +44,22 @@ main div span a {
 }
 /*M-queries de Page indumentaria*/
 .main-indumentaria {
-.f-uno img {
-            width: 80%;
-        }
-.f-dos img {
-            width: 80%;
-            }
-.f-tres img  {
-            width: 80%;
-            }
-.f-cuatro img {
-            width: 80%;
-            }
-.f-cinco img {
-            width: 80%;
-            }
-.f-seis img {
-            width: 80%;
-            }
+.queries-indumentaria{
+        justify-items: center;
+        width: 160px;
+        height: 160px;
+}
 }
 /*M-queries de Page decoracion*/
 .main-decoracion {
 .text-banner {
-    font-size: 13px;
+    font-size: 12px;
+    padding: 2% 10% 6% 10%;
 }
 .fotos-queries-320{ 
     justify-items: center;
-    width: 80%;
+    width: 160px;
+    height: 190px;
 }
 }
 /*M-queries de Page registracion*/

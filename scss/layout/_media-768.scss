@@ -27,7 +27,11 @@
     "f-uno f-dos"
     "f-tres f-cuatro"
     "f-cinco f-seis";
-}
+    .queries-indumentaria{
+        justify-items: center;
+        width: 250px;
+        height: 250px;
+}}
 /*M-queries de Page Decoracion*/
 .main-decoracion {
     display: grid;
@@ -50,7 +54,8 @@
 .text-banner {
     font-size: 18px;
     padding: 2% 0% 8% 0%
-}}
+}
+}
 /*M-queries de Page Registracion*/
 .main-regis-media{
     display: grid;

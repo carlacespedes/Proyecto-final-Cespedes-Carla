@@ -22,11 +22,24 @@ header{
         bottom: 70px;
     }
 }
+/*M-queries de Page Indumentaria*/
+.main-indumentaria {
+    .queries-indumentaria{
+            justify-items: center;
+            width: 180px;
+            height: 180px;
+    }
+    }
 /*M-queries de Page decoracion*/
 .main-decoracion {
     .text-banner {
         font-size: 16px;
-    }}
+    }
+    .fotos-queries-320{ 
+        justify-items: center;
+        width: 190px;
+        height: 220px;
+}}
 /*M-queries de Page Registracion*/
 .main-regis-media{ 
     .registrarme {

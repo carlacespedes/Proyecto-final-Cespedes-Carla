@@ -3,7 +3,7 @@
         width: 70%;
         }
 .navbar {
-            font-size: 15px;
+        font-size: 15px;
     }
 main div span{
         font-size: 14px;
@@ -30,25 +30,11 @@ main div span a {
 }
 /*M-queries de Page Indumentaria*/
 .main-indumentaria {
-.f-uno img {
-        width: 90%;
-    }
-.f-dos img {
-        width: 90%;
-        }
-.f-tres img  {
-        width: 90%;
-        }
-.f-cuatro img {
-        width: 90%;
-        }
-.f-cinco img {
-        width: 90%;
-        }
-.f-seis img {
-        width: 90%;
-        }
-}
+    .queries-indumentaria{
+    justify-items: center;
+    width: 228px;
+    height: 228px;
+}}
 /*M-queries de Page decoracion*/
 .main-decoracion {
 .text-banner {

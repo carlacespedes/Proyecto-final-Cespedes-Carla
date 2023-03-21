@@ -1,42 +1,42 @@
 @media (max-width:425px) {
     header{
-    .logo{ 
-            width: 50%;
-            margin: 30px 2px 2px 20px
+.logo{ 
+    width: 50%;
+    margin: 30px 2px 2px 20px
             }
-            .navbar {
-                    font-size: 10px;
-                    gap: 4px;
-                    margin: 40px 22px 40px 0px;   
-            } }
-            main div span{
-                padding: 3%;
-                font-size: 11px;
-                text-align: center;
+.navbar {
+        font-size: 10px;
+        gap: 4px;
+        margin: 40px 22px 40px 0px;   
+    } }
+main div span{
+        padding: 3%;
+        font-size: 11px;
+        text-align: center;
             }  
-            main div span a {
-                text-decoration: none;
-                list-style: none;
-                color:black;
-                font-family:'Poppins', sans-serif;
-                font-size: 10px;
+main div span a {
+        text-decoration: none;
+        list-style: none;
+        color:black;
+        font-family:'Poppins', sans-serif;
+        font-size: 10px;
                 }      
 /*M-queries de Page Index*/
 .main-index-media {
     column-gap: 1%;
     padding: 15% 5% 10% 5%;
-    .img-1 img {
+.img-1 img {
         width: 90%;
     }
-    .img-2 img {
+.img-2 img {
         width: 96%;
     }
-    .item-2  {
+.item-2  {
         font-size: 16px; 
         bottom: 80px;
         padding: 3%;
     }
-    .item-4 {
+.item-4 {
         font-size: 16px; 
         bottom: 80px;
         padding: 3%;
@@ -44,22 +44,22 @@
 }
 /*M-queries de Page indumentaria*/
 .main-indumentaria {
-    .f-uno img {
+.f-uno img {
             width: 80%;
         }
-    .f-dos img {
+.f-dos img {
             width: 80%;
             }
-    .f-tres img  {
+.f-tres img  {
             width: 80%;
             }
-    .f-cuatro img {
+.f-cuatro img {
             width: 80%;
             }
-    .f-cinco img {
+.f-cinco img {
             width: 80%;
             }
-    .f-seis img {
+.f-seis img {
             width: 80%;
             }
 }
@@ -93,24 +93,24 @@
 }
 /*M-queries de Page favoritos*/
 .main-favoritos { 
-    .text-banner-fav {
+.text-banner-fav {
         font-size: 13px;
     }
-    .foto-favuno img {
+.foto-favuno img {
         width: 110px;
         height: 210px;
 }
-    .foto-favdos img {
+.foto-favdos img {
         width: 110px;
         height: 210px;
 }
-    .foto-favtres img { 
+.foto-favtres img { 
         width: 110px;
         height: 210px;
 }
 }
 footer {
-    .iconos-footer {
+.iconos-footer {
         margin: 55px 1px 49px 15px;  
 }
 section ul li a img {

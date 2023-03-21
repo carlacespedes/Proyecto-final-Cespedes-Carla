@@ -1,5 +1,8 @@
 @media (max-width:640px) {
     header{ 
+        .logo{
+            margin: 30px 2px 2px 26px;
+        }
     .navbar {
         font-size: 13px;
         margin: 40px 15px 50px 0px;   
@@ -18,7 +21,7 @@
 }
 /*M-queries de Page Indumentaria*/
 .main-indumentaria {
-    .f-uno img {
+.f-uno img {
         width: 80%;
     }
 .f-dos img {
@@ -39,36 +42,36 @@
 }
 /*M-queries de Page decoracion*/
 .main-decoracion{ 
-    .text-banner {
+.text-banner {
         font-size: 18px;
     }
-    .fotos-queries-320{ 
+.fotos-queries-320{ 
         display:grid;
         justify-items: center;
         width: 90%;
     }}
 /*M-queries de Page Registracion*/
 .main-regis-media{ 
-    .registrarme {
+.registrarme {
         font-size: 13px;
     }
-    .class-formu {
+.class-formu {
         padding: 50px 150px 60px 150px;
     }}
 /*M-queries de Page Favoritos*/
 .main-favoritos { 
-    .text-banner-fav {
+.text-banner-fav {
         font-size: 19px;
     }
-    .foto-favuno img {
+.foto-favuno img {
         width: 160px;
         height: 270px;
 }
-    .foto-favdos img {
+.foto-favdos img {
         width: 160px;
         height: 270px;
 }
-    .foto-favtres img { 
+.foto-favtres img { 
         width: 160px;
         height: 270px;
 }

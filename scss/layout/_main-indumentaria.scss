@@ -47,20 +47,19 @@ main div span{
     grid-area: f-dos;
     }
 .f-tres { 
-     @extend .f-uno;
-     grid-area: f-tres;
+    @extend .f-uno;
+    grid-area: f-tres;
     }
 .f-cuatro {
-     @extend .f-uno;
-     grid-area: f-cuatro;
+    @extend .f-uno;
+    grid-area: f-cuatro;
 
 }
 .f-cinco {
-     @extend .f-uno;
-     grid-area: f-cinco;
+    @extend .f-uno;
+    grid-area: f-cinco;
 }
 .f-seis {
-     @extend .f-uno;
-     grid-area: f-seis;
+    @extend .f-uno;
+    grid-area: f-seis;
 }
-

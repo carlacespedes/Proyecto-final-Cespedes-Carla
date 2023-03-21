@@ -13,7 +13,7 @@
 .main-decoracion {
 .text-banner {
     font-size: 21px;
-}
+}}
 /*M-queries de Page Favoritos*/    
     .main-favoritos { 
         .text-banner-fav {
@@ -21,10 +21,10 @@
         }}
  /*M-queries de Page Registracion*/       
 .main-regis-media{
-        display: flex;
-        width: 100%;
-        height: 110vh;
-        font-size: 16px;
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    font-size: 16px;
 .registrarme-banner {
     font-size: 21px;
     margin: 70px 100px 40px 100px 
@@ -37,7 +37,6 @@
 .class-formu {
     padding: 50px 250px 60px 250px;
 }}
-}
 footer {
     font-size: 17px;
 }}

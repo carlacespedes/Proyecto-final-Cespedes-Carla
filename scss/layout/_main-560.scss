@@ -1,12 +1,16 @@
 @media (max-width:560px) {
-    header{ 
+header{ 
+        .logo{ 
+            width: 50%;
+            margin: 30px 30px 2px 17px;
+            }
         .navbar {
-            font-size: 12px;
+            font-size: 11px;
     } }
-    main div span{
+        main div span{
         font-size: 12px;
     }  
-    main div span a {
+        main div span a {
         font-size: 12px;
         }      
 /*M-queries de Page Index*/
@@ -31,7 +35,7 @@
     .class-formu {
         padding: 50px 120px 60px 120px;
     }}
-    /*M-queries de Page Favoritos*/
+/*M-queries de Page Favoritos*/
     .main-favoritos { 
         row-gap: 6px;
         .text-banner-fav {

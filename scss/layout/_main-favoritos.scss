@@ -45,7 +45,7 @@
     grid-area: foto-favdos;
 }
 .foto-favtres { 
-   @extend .foto-favuno;
+  @extend .foto-favuno;
     grid-area: foto-favtres;
 }
 @keyframes jello {

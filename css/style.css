@@ -483,10 +483,10 @@ footer {
     width: 100%;
     height: 130vh; }
     .main-index-media .item-2, .main-index-media .item-4 {
-      bottom: 110px;
+      bottom: 100px;
       font-size: 20px; }
     .main-index-media .item-4 {
-      bottom: 110px;
+      bottom: 100px;
       font-size: 20px; }
   /*M-queries de Page Indumentaria*/
   .main-indumentaria {
@@ -727,11 +727,11 @@ footer {
       width: 96%; }
     .main-index-media .item-2, .main-index-media .item-4 {
       font-size: 16px;
-      bottom: 65px;
+      bottom: 64px;
       padding: 3%; }
     .main-index-media .item-4 {
       font-size: 16px;
-      bottom: 65px;
+      bottom: 64px;
       padding: 3%; }
   /*M-queries de Page indumentaria*/
   .main-indumentaria .queries-indumentaria {
@@ -797,14 +797,14 @@ footer {
     .main-index-media .img-1 img {
       width: 95%; }
     .main-index-media .img-2 img {
-      width: 100%; }
+      width: 101%; }
     .main-index-media .item-2, .main-index-media .item-4 {
       font-size: 14px;
-      bottom: 64px;
+      bottom: 62px;
       padding: 3%; }
     .main-index-media .item-4 {
       font-size: 14px;
-      bottom: 64px; }
+      bottom: 62px; }
   /*M-queries de Page indumentaria*/
   .main-indumentaria .queries-indumentaria {
     justify-items: center;
@@ -880,11 +880,11 @@ footer {
     column-gap: 1%; }
     .main-index-media .item-2, .main-index-media .item-4 {
       font-size: 14px;
-      bottom: 60px;
+      bottom: 55px;
       padding: 3%; }
     .main-index-media .item-4 {
       font-size: 14px;
-      bottom: 60px; }
+      bottom: 55px; }
   /*M-queries de Page indumentaria*/
   .main-indumentaria .queries-indumentaria {
     justify-items: center;
@@ -923,11 +923,11 @@ footer {
       width: 102%; }
     .main-index-media .item-2, .main-index-media .item-4 {
       font-size: 14px;
-      bottom: 60px;
+      bottom: 55px;
       padding: 3%; }
     .main-index-media .item-4 {
       font-size: 14px;
-      bottom: 60px; }
+      bottom: 55px; }
   /*M-queries de Page Indumentaria*/
   .main-indumentaria {
     background-color: #edeae5;

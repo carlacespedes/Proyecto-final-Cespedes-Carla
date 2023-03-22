@@ -11,7 +11,7 @@
     } }
 main div span{
         padding: 3%;
-        font-size: 11px;
+        font-size: 12px;
         text-align: center;
             }  
 main div span a {
@@ -23,8 +23,9 @@ main div span a {
                 }      
 /*M-queries de Page Index*/
 .main-index-media {
+    width: 100%;
+    height: 90vh;
     column-gap: 1%;
-    padding: 15% 5% 10% 5%;
 .img-1 img {
         width: 90%;
     }
@@ -82,8 +83,11 @@ main div span a {
 }
 /*M-queries de Page favoritos*/
 .main-favoritos { 
+    width: 100%;
+    height: 90vh;
+    padding: 12% 0% 15% 0%;
 .text-banner-fav {
-        font-size: 13px;
+        font-size: 17px;
     }
 .foto-favuno img {
         width: 110px;

@@ -727,11 +727,11 @@ footer {
       width: 96%; }
     .main-index-media .item-2, .main-index-media .item-4 {
       font-size: 16px;
-      bottom: 80px;
+      bottom: 65px;
       padding: 3%; }
     .main-index-media .item-4 {
       font-size: 16px;
-      bottom: 80px;
+      bottom: 65px;
       padding: 3%; }
   /*M-queries de Page indumentaria*/
   .main-indumentaria .queries-indumentaria {
@@ -797,14 +797,14 @@ footer {
     .main-index-media .img-1 img {
       width: 95%; }
     .main-index-media .img-2 img {
-      width: 96%; }
+      width: 100%; }
     .main-index-media .item-2, .main-index-media .item-4 {
-      font-size: 13px;
-      bottom: 70px;
+      font-size: 14px;
+      bottom: 64px;
       padding: 3%; }
     .main-index-media .item-4 {
       font-size: 14px;
-      bottom: 70px; }
+      bottom: 64px; }
   /*M-queries de Page indumentaria*/
   .main-indumentaria .queries-indumentaria {
     justify-items: center;
@@ -878,6 +878,13 @@ footer {
     width: 100%;
     height: 80vh;
     column-gap: 1%; }
+    .main-index-media .item-2, .main-index-media .item-4 {
+      font-size: 14px;
+      bottom: 60px;
+      padding: 3%; }
+    .main-index-media .item-4 {
+      font-size: 14px;
+      bottom: 60px; }
   /*M-queries de Page indumentaria*/
   .main-indumentaria .queries-indumentaria {
     justify-items: center;
